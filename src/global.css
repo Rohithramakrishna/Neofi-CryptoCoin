@@ -1,0 +1,150 @@
+body {
+  background-color: #1e1e1e;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(11, 8, 25);
+}
+
+header img {
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 100px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+
+nav a:hover {
+  color: #007aff;
+  border-bottom: 2px solid #007aff;
+}
+
+.connect-wallet-btn {
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 200vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(11, 8, 25);
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 270px;
+  height: 350px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+form label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+form span {
+  padding-left: 50px;
+  color: #007aff;
+}
+
+form div.value-section {
+  display: inline-block;
+}
+
+form label #current-value {
+  font-size: 24px;
+  color: #41529b;
+  font-weight: 600;
+}
+
+form select {
+  appearance: none;
+  background: url("./Asset/images/down-arrow.png") no-repeat right;
+  background-size: 5%;
+  color: white;
+  background-color: #1c1731;
+  border-color: #ccc;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 40px;
+}
+
+.input-wrapper {
+  position: relative;
+}
+.input-wrapper input {
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 30px;
+  background-color: #1c1731;
+  color: #ccc;
+}
+.input-wrapper input span {
+  color: #ccc;
+}
+
+.input-tag {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #41529b;
+}
+#btn {
+  background: linear-gradient(94.37deg, #3387d5 -5.94%, #7a06c9 115.34%);
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  color: #ccc;
+}
