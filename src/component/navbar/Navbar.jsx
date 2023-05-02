@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div>
       <header>
-        <img src="" alt="" />
+        <img />
 
         <nav>
           <ul>
@@ -14,7 +14,7 @@ const Navbar = () => {
               <Link to="/">Trade</Link>
             </li>
             <li>
-              <Link to="/Page2">Earn</Link>
+              <Link to="#">Earn</Link>
             </li>
             <li>
               <a href="#">Support</a>
