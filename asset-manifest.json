@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Neofi-CryptoCoin/static/css/main.f4b9bb3c.css",
-    "main.js": "/Neofi-CryptoCoin/static/js/main.a4eea104.js",
+    "main.css": "/Neofi-CryptoCoin/static/css/main.1de19201.css",
+    "main.js": "/Neofi-CryptoCoin/static/js/main.b9851524.js",
     "index.html": "/Neofi-CryptoCoin/index.html",
-    "main.f4b9bb3c.css.map": "/Neofi-CryptoCoin/static/css/main.f4b9bb3c.css.map",
-    "main.a4eea104.js.map": "/Neofi-CryptoCoin/static/js/main.a4eea104.js.map"
+    "main.1de19201.css.map": "/Neofi-CryptoCoin/static/css/main.1de19201.css.map",
+    "main.b9851524.js.map": "/Neofi-CryptoCoin/static/js/main.b9851524.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4b9bb3c.css",
-    "static/js/main.a4eea104.js"
+    "static/css/main.1de19201.css",
+    "static/js/main.b9851524.js"
   ]
 }
